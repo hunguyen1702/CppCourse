@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerChat", "ServerChat\ServerChat.vcxproj", "{9BBFE3FE-E3E6-4795-BED6-B815A7B95248}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerGUI", "ServerGUI\ServerGUI.vcxproj", "{E79BE14B-5724-4D8F-A67B-20891721B020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BBFE3FE-E3E6-4795-BED6-B815A7B95248}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BBFE3FE-E3E6-4795-BED6-B815A7B95248}.Debug|Win32.Build.0 = Debug|Win32
+		{9BBFE3FE-E3E6-4795-BED6-B815A7B95248}.Release|Win32.ActiveCfg = Release|Win32
+		{9BBFE3FE-E3E6-4795-BED6-B815A7B95248}.Release|Win32.Build.0 = Release|Win32
+		{E79BE14B-5724-4D8F-A67B-20891721B020}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E79BE14B-5724-4D8F-A67B-20891721B020}.Debug|Win32.Build.0 = Debug|Win32
+		{E79BE14B-5724-4D8F-A67B-20891721B020}.Release|Win32.ActiveCfg = Release|Win32
+		{E79BE14B-5724-4D8F-A67B-20891721B020}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

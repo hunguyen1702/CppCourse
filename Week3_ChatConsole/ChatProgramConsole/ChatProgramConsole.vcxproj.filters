@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Form">
+      <UniqueIdentifier>{c24245da-a7d3-4ee5-9f2d-7c33b2a18c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form">
+      <UniqueIdentifier>{afe1e5a4-f191-4f67-8620-bb17eb6615be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Accessor">
+      <UniqueIdentifier>{368b9db4-7996-46de-b2c5-404f760b5f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Accessor">
+      <UniqueIdentifier>{78953330-a366-415d-8942-0febc4035da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{c9c47470-43f6-4a28-95a9-34fb34c63b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{45ef4fca-95c5-47a0-a0a0-01589238ebd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FormAccount.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountInfo.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="FormMessage.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDetail.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountAccessor.cpp">
+      <Filter>Source Files\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="FormMain.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageAccessor.cpp">
+      <Filter>Source Files\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="FormFriends.cpp">
+      <Filter>Source Files\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendAccessor.cpp">
+      <Filter>Source Files\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FormAccount.h">
+      <Filter>Header Files\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountInfo.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="FormMessage.h">
+      <Filter>Header Files\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDetail.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountAccessor.h">
+      <Filter>Header Files\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="FormMain.h">
+      <Filter>Header Files\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageAccessor.h">
+      <Filter>Header Files\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="FormFriends.h">
+      <Filter>Header Files\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendAccessor.h">
+      <Filter>Header Files\Accessor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

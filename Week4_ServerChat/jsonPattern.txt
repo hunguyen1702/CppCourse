@@ -1,0 +1,155 @@
+#define JSON_LOGIN 1
+#define JSON_LOGOUT 2
+#define JSON_REGIST 3
+//Login request
+{
+	"type":1,
+	"LoginInfo":{
+		"username":""
+		"password":""
+	}
+}
+
+//Login Response
+{
+	"type":1,
+	"isLogin":true/false}
+}
+
+//Logout Request
+{
+	"type":2,
+	"Logout":{
+		"username":""
+	}
+}
+
+//Logout Response
+{
+	"type":2,
+	"isLogout":true/false
+}
+
+//Register Request
+{
+	"type":3,
+	"Register":{
+		"username":"",
+		"password":"",
+		"fullname":"",
+		"mail":"",
+		"age":"",
+		"sex":""
+	}
+}
+
+//Register Request
+{
+	"type":3,
+	"isCreated":true/false
+}
+
+#define JSON_ADD_FRIEND	7
+#define JSON_DEL_FRIEND 8
+#define JSON_LIST_FRIEND 9
+//AddFriend request
+{
+	"type":7,
+	"AddFriend":{
+		"requestUser":"",
+		"addUser":""
+	}
+}
+
+//addFriend Response
+{
+	"type":7,
+	"isAdd":true/false
+}
+
+//DelFriend request
+{
+	"type":8,
+	"DelFriend":{
+		"requestUser":"",
+		"delUser":""
+	}
+}
+
+//delFriend Response
+{
+	"type":8,
+	"isDel":true/false
+}
+
+//get List friend request
+{
+	"type":9,
+	"GetFriendList":{
+		"requestUser":""
+	}
+}
+
+//get List friend response
+{
+	"type":9,
+	"FriendList":[
+		"",
+		"",
+		...
+	]
+}
+
+#define JSON_RECV_MESSAGE 4
+#define JSON_SEND_MESSAGE 5
+#define JSON_LIST_MESSAGE 6
+//Send message Request
+{
+	"type":4,
+	"MessageDetail":{
+		"sender":""
+		"receiver":""
+		"content":""
+	}
+}
+
+//Send message Response
+{
+	"type":4,
+	"isSend":true/false
+}
+
+//Send to another socket
+{
+	"type":5,
+	"MessageDetail":{
+		"sender":""
+		"receiver":""
+		"content":""
+	}
+}
+
+//get list message request
+{
+	"type":6,
+	"GetListMess":{
+		"requestUser":""
+	}
+}
+
+//get list message response
+{
+	"type":6,
+	"MessageList":[
+		{
+			"sender":""
+			"receiver":""
+			"content":""
+		},
+		{
+			"sender":""
+			"receiver":""
+			"content":""
+		}
+	]
+}
